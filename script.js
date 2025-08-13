@@ -56,8 +56,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // VALIDACIÓN EN TIEMPO REAL
 
     nombre.addEventListener("input", validarNombre);
-    nombre.addEventListener("input", validarEmail);
-    nombre.addEventListener("input", validarPassword);
+    email.addEventListener("input", validarEmail);
+    password.addEventListener("input", validarPassword);
 
     // VALIDACIÓN AL ENVIAR
     form.addEventListener("submit", (e) => {
